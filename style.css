@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    border: border-box;
+}
+.navBar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navLogo{
+height: 60px;
+width: 100px;
+align-items: center;
+justify-content: inline;
+
+
+}
+.Logo{
+    background-image:url(amazon-dark-logo-01F3CFFF03-seeklogo.com-removebg-preview.png) ;
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: px;
+ 
+}
+.Border{
+ border: 1px solid transparent;   
+}
+.Border:hover{
+    border: 1.3px solid white;
+}
+.add-1st{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 19px;
+}
+.add-2nd{
+    color: white;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+.addIcon{
+    align-items: center;
+    display: flex;
+}
+.navAdd{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+}
+.navSearch{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+}
+.navSearch:hover{
+    border: 2px solid orange;
+}
+.navSelect{
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    border: none;
+}
+.navinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchLogo{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    color: #0f1111;
+}
+span{
+  font-size: 0.7rem;
+}
+.nav2nd{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.navCart i {
+    font-size: 30px;
+}
+.navCart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelOpt p {
+display: inline;
+margin-left: 10px;
+}
+.panelOpt{
+    width: 70%;
+    font-size: 0.85rem;
+
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    
+}
+.heroSec{
+    height: 400px;
+    background-image: url(hersec.png);
+    background-size:cover ;  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromsg{
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+   margin-bottom: 50px;
+    
+}
+.heromsg a {
+    color: #007185;
+}
+.shopSec{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    background-color:#e2e7e6 ;
+}
+
+.box{
+height: 400px;
+width: 23%;
+padding: 20px 0px 15px;
+margin-top: 15px;
+background: white; 
+
+}
+.box1img{
+    height: 300px;
+    background-size:cover ;
+ margin-top:1rem ;
+ margin-bottom: 1rem;
+}
+.boxCont {
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+footer{
+    margin-top:15px ;
+}
+.footPanel{
+    background: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.footPanel a{
+    color: white;
+
+}
+.footPanel2{
+    background: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+}
+ul{
+    margin-top: 20px;
+}
+.footPanel2 a {
+    display: block;
+    font-size: 0.85rem; 
+    margin-top: 10px;
+    color: #dddddd;
+}
+.footpanel3{
+    background: #222f3d;
+    color: white;
+    border-top: 0.3px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    background-image:url(amazon-dark-logo-01F3CFFF03-seeklogo.com-removebg-preview.png) ;
+    height: 50px;
+    background-size: cover;
+    width: 100px;
+    padding-bottom: 20px;
+}
+.footpanel4{
+    background: #0f1111;
+    color: white;
+
+height:80px ;
+}
+.footpages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 5px;
+}
